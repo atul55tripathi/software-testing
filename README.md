@@ -18,18 +18,22 @@ using test cases written in JUNIT.
 
 ![](./src/screenshots/s2.png)
 
-# Steps to run project
 
-* mvn clean
-* mvn compile
-* java -cp ./target/project-1.0-SNAPSHOT.jar com/example.Main
+# To run the project, follow these steps:
 
-* mvn test
-* mvn -DwithHistory test-compile org.pitest:pitest-maven:mutationCoverage
+* Clean Build Artifacts: Begin by cleaning the project to remove any previously compiled files and ensure a fresh build environment.
+
+* Compile the Project: Compile the source code to generate the necessary class files.
+
+* Run the Application: Use the compiled JAR file to execute the main class and start the application.
+
+* Run Unit Tests: Execute the unit tests to verify the code's correctness.
+
+* Perform Mutation Testing: Compile the test code and use a mutation testing tool to assess the quality of your tests by checking how well they catch intentional code changes.
 
 # Main Source File
 
-* the main file is written in java
+* the main file runs some basic operations like creating objects and using constructors, then applying some unary and binary operations.
 * it can be run saparately, without running the tests on it
 * the open source contributer for the file is https://github.com/danhales/linearalgebra
 
