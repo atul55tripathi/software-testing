@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.example.MatrixTest" time="0.006" tests="59" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="21"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\atul8\Desktop\comp\demo\target\test-classes;C:\Users\atul8\Desktop\comp\demo\target\classes;C:\Users\atul8\.m2\repository\junit\junit\4.11\junit-4.11.jar;C:\Users\atul8\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="21"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-21\bin"/>
+    <property name="sun.java.command" value="C:\Users\atul8\AppData\Local\Temp\surefire1161357891689234356\surefirebooter18277749472456532359.jar C:\Users\atul8\AppData\Local\Temp\surefire1161357891689234356 2024-11-26T15-32-48_732-jvmRun1 surefire4247504274379759977tmp surefire_06453098495208556851tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\atul8\Desktop\comp\demo\target\test-classes;C:\Users\atul8\Desktop\comp\demo\target\classes;C:\Users\atul8\.m2\repository\junit\junit\4.11\junit-4.11.jar;C:\Users\atul8\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\atul8"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2023-10-17"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-21"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\atul8\Desktop\comp\demo"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\atul8\AppData\Local\Temp\surefire1161357891689234356\surefirebooter18277749472456532359.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="21.0.1+12-LTS-29"/>
+    <property name="user.name" value="atul8"/>
+    <property name="stdout.encoding" value="Cp1252"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\atul8\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\atul8\AppData\Local\Temp\"/>
+    <property name="java.version" value="21.0.1"/>
+    <property name="user.dir" value="C:\Users\atul8\Desktop\comp\demo"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-21\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files\Python312\Scripts\;C:\Program Files\Python312\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Program Files\Java\jdk-21\bin;C:\Program Files\Git\cmd;C:\Program Files\Docker\Docker\resources\bin;C:\Users\atul8\Desktop\eld\logstash-8.13.4\bin;C:\Users\atul8\Desktop\eld\kibana-8.13.4\bin;C:\Users\atul8\Desktop\eld\elasticsearch-8.13.4\bin;M:\apache-maven-3.9.9\bin;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\atul8\AppData\Local\Microsoft\WindowsApps;C:\Users\atul8\AppData\Roaming\npm;D:\IntelliJ IDEA 2023.2.5\bin;;C:\Users\atul8\AppData\Local\Programs\Microsoft VS Code\bin;C:\msys64\ucrt64\bin;;C:\Users\atul8\AppData\Local\Programs\Hyper\resources\bin;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="Cp1252"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="21.0.1+12-LTS-29"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="65.0"/>
+  </properties>
+  <testcase name="testIsDiagonalForDiagonalMatrix" classname="com.example.MatrixTest" time="0"/>
+  <testcase name="verifyConstructor" classname="com.example.MatrixTest" time="0"/>
+  <testcase name="testSwapColumns" classname="com.example.MatrixTest" time="0"/>
+  <testcase name="testReplaceColumn_LengthMismatch" classname="com.example.MatrixTest" time="0"/>
+  <testcase name="testReplaceRow" classname="com.example.MatrixTest" time="0"/>
+  <testcase name="testIsDiagonal_MatrixNotDiagonal" classname="com.example.MatrixTest" time="0"/>
+  <testcase name="testReplaceColumn" classname="com.example.MatrixTest" time="0"/>
+  <testcase name="testSwapRowsThrowsForInvalidIndex" classname="com.example.MatrixTest" time="0"/>
+  <testcase name="testAccessEntry" classname="com.example.MatrixTest" time="0"/>
+  <testcase name="verifyColumnVectorMatrixCreation" classname="com.example.MatrixTest" time="0"/>
+  <testcase name="verifyCopyConstructor" classname="com.example.MatrixTest" time="0"/>
+  <testcase name="checkInvalidRowIndex" classname="com.example.MatrixTest" time="0"/>
+  <testcase name="verifyRowVectorMatrixCreation" classname="com.example.MatrixTest" time="0"/>
+  <testcase name="testColumnCount" classname="com.example.MatrixTest" time="0"/>
+  <testcase name="testAdd" classname="com.example.MatrixTest" time="0"/>
+  <testcase name="testTransposeIdentityMatrix" classname="com.example.MatrixTest" time="0"/>
+  <testcase name="testSubtract" classname="com.example.MatrixTest" time="0"/>
+  <testcase name="testSubtract_Exception" classname="com.example.MatrixTest" time="0.001"/>
+  <testcase name="testUpdateEntry" classname="com.example.MatrixTest" time="0"/>
+  <testcase name="verifyRowRemoval" classname="com.example.MatrixTest" time="0"/>
+  <testcase name="testTraceThrowsForNonSquareMatrix" classname="com.example.MatrixTest" time="0"/>
+  <testcase name="testMultiplyByVector_Exception" classname="com.example.MatrixTest" time="0"/>
+  <testcase name="testIdentityMatrix_InvalidSize" classname="com.example.MatrixTest" time="0"/>
+  <testcase name="checkInvalidColumnIndex" classname="com.example.MatrixTest" time="0"/>
+  <testcase name="testDeterminant_SingleElement" classname="com.example.MatrixTest" time="0"/>
+  <testcase name="checkRowVectorLengthMismatch" classname="com.example.MatrixTest" time="0"/>
+  <testcase name="testIdentityMatrixCreation" classname="com.example.MatrixTest" time="0"/>
+  <testcase name="testIsSparse_Matrix" classname="com.example.MatrixTest" time="0"/>
+  <testcase name="checkInvalidMinorMatrixRow" classname="com.example.MatrixTest" time="0"/>
+  <testcase name="testMultiplyByMatrix_Exception" classname="com.example.MatrixTest" time="0"/>
+  <testcase name="verifyColumnRemoval" classname="com.example.MatrixTest" time="0"/>
+  <testcase name="testMultiplyByMatrix" classname="com.example.MatrixTest" time="0"/>
+  <testcase name="testReplaceRow_InvalidInput" classname="com.example.MatrixTest" time="0"/>
+  <testcase name="testAccessEntry_OutOfBounds" classname="com.example.MatrixTest" time="0"/>
+  <testcase name="testMultiplyByScalar" classname="com.example.MatrixTest" time="0"/>
+  <testcase name="testDeterminant_TwoByTwo" classname="com.example.MatrixTest" time="0"/>
+  <testcase name="testMultiplyByVector" classname="com.example.MatrixTest" time="0"/>
+  <testcase name="testSwapRows" classname="com.example.MatrixTest" time="0"/>
+  <testcase name="testSparseCheckForDenseMatrix" classname="com.example.MatrixTest" time="0"/>
+  <testcase name="testAddVectorToRow_Case1" classname="com.example.MatrixTest" time="0"/>
+  <testcase name="testAddVectorToRow_Case2" classname="com.example.MatrixTest" time="0"/>
+  <testcase name="testAddVectorToRow_Case3" classname="com.example.MatrixTest" time="0"/>
+  <testcase name="checkMinorMatrix" classname="com.example.MatrixTest" time="0"/>
+  <testcase name="testUpdateEntry_OutOfBounds" classname="com.example.MatrixTest" time="0"/>
+  <testcase name="testDeterminantSingleElement" classname="com.example.MatrixTest" time="0"/>
+  <testcase name="testSwapRows_Case4" classname="com.example.MatrixTest" time="0"/>
+  <testcase name="testIsSquareForNonSquareMatrix" classname="com.example.MatrixTest" time="0"/>
+  <testcase name="testTransposeGeneralMatrix" classname="com.example.MatrixTest" time="0"/>
+  <testcase name="testTranspose_Square" classname="com.example.MatrixTest" time="0"/>
+  <testcase name="testSwapColumnsThrowsForInvalidIndex" classname="com.example.MatrixTest" time="0"/>
+  <testcase name="testRetrieveRow" classname="com.example.MatrixTest" time="0"/>
+  <testcase name="testSetRowSuccessfully" classname="com.example.MatrixTest" time="0"/>
+  <testcase name="testIsSquare_NotSquare" classname="com.example.MatrixTest" time="0"/>
+  <testcase name="testAdd_Exception" classname="com.example.MatrixTest" time="0"/>
+  <testcase name="testAddVectorToColumn_Case1" classname="com.example.MatrixTest" time="0.001"/>
+  <testcase name="testAddVectorToColumn_Case2" classname="com.example.MatrixTest" time="0"/>
+  <testcase name="testAddVectorToColumn_Case3" classname="com.example.MatrixTest" time="0"/>
+  <testcase name="testRetrieveRow_InvalidIndex" classname="com.example.MatrixTest" time="0"/>
+  <testcase name="testTransposeOfSingleRow" classname="com.example.MatrixTest" time="0"/>
+</testsuite>
